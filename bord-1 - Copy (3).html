@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.main {
+    border: blue solid;
+    height:1000px;
+}
+.limg {
+            width: 500px;
+            height: 500px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+        }
+        .info1 {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+    border: orange solid;
+
+        }
+        .dv {
+            padding-top: 10px;
+        }
+        .inf {
+        
+        }
+
+    
+                /* 
+- Name: Responsive overlay menu framework
+- Version: 1.0
+- Latest update: 15.9.2015.
+- Author: Mario Loncarek
+- Author web site: http://marioloncarek.com
+*/
+
+
+
+a {
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+/* OPEN / CLOSE BTNS */
+.menu-btn {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    z-index: 999;
+    display: inline;
+    font-size: 32px;
+}
+.menu-btn a {
+    display: inline-block;
+    text-decoration: none;
+    /* safari hack */
+}
+.btn-open:after {
+    color: #333;
+    font-family: "Ionicons";
+    -webkit-transition: all .2s linear 0s;
+    -moz-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    transition-property: all .2s linear 0s;
+}
+.btn-open:hover:after {
+    color: #34B484;
+}
+.btn-close:after {
+    color: #fff;
+    content: "\f2d7";
+    font-family: "Ionicons";
+    -webkit-transition: all .2s linear 0s;
+    -moz-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    transition-property: all .2s linear 0s;
+}
+.btn-close:hover:after {
+    color: #34B484;
+}
+/* OVERLAY */
+.overlay {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background: #333;
+}
+.overlay .menu {
+    margin: 10% auto;
+    width: 80%;
+}
+.overlay .menu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.overlay .menu ul li {
+    float: left;
+    padding: 20px 0;
+    width: 25%;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.overlay .menu ul li a {
+    color: #34B484;
+    font-weight: bold;
+    font-size: 20px;
+}
+.overlay .menu ul ul {
+    margin-top: 50px;
+}
+.overlay .menu ul ul li {
+    position: relative;
+    float: none;
+    margin: 0;
+    width: 100%;
+    border: 0;
+}
+.overlay .menu ul ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
+}
+.overlay .menu ul ul li a:hover {
+    color: #34b484;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 968px) {
+    .overlay .menu ul li {
+        float: none;
+        margin-bottom: 50px;
+        width: 100%;
+        border-bottom: 1px solid #575757;
+    }
+    .overlay .menu ul li:last-child {
+        border: 0;
+    }
+    .overlay .menu ul ul {
+        margin-top: 20px;
+    }
+    .menu-btn {
+        right: 10px;
+    }
+}
+
+.allexamples{
+  position:absolute;
+  bottom:0;
+  font-size:18px;
+  font-weight:bold;
+  width:100%;
+  text-align:center;
+  background:#e9e9e9;
+  padding:20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color:#333;
+  position:fixed;
+} 
+
+/* OPEN / CLOSE BTNS */
+    </style>
+</head>
+<body>
+   <div class="main">
+    <div class="menu-btn">
+        <a  class="btn-open" href="menu.html" i><img src= "icons8-menu-48.png" alt=""></a>
+    </div>  
+<div><img class="limg" src="IMG_E1435.JPG" alt=""></div>
+<div class="dv"><div class="info1"><h2>وزن مورد نیاز بورد:؟؟؟</h2></div>
+<div class="info1"><h2>وزن مورد نیاز بورد:؟؟؟</h2></div>
+<div class="info1"><h2>وزن مورد نیاز بورد:؟؟؟</h2></div>
+<div class="info1"><h2>وزن مورد نیاز بورد:؟؟؟</h2></div></div>
+<div  class="inf"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error reiciendis sed, atque eligendi ad ipsa velit numquam, inventore amet optio tempore aliquam quisquam, expedita nobis repellendus? Delectus, suscipit atque.</h1></div>
+</div> 
+</body>
+</html>
